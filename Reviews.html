@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: White;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  color: White;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the header */
+.header {
+  background-color:red;
+  padding: 20px;
+  text-align: center;
+}
+
+body {
+background-image: url("https://rzr-insider-assets.s3.amazonaws.com/2015/12/181254_a39c3cba4549c63a273c3c231e5496d9.jpg");
+height: 700px;
+width: 800px
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Legendary Gaming</h1>
+  <p>For all your gaming needs</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#">About me</a>
+  <a href="#">Best</a>
+   <a href="#">Reviews</a>
+    <a href="#">News</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2> Ps5</h2>
+    <p>Rating 10/10, their graphics are amazing, 120 frames per second with DualSense controllers that have trigger buttons with feedback. It has a nice slick and cool design to it espically when it comes to the controller, very firm and easy to handle, makes playing even better.You can really see the detail and work that sony put in to make this one of the best consoles out rigth now.</p>
+  </div>
+  
+  <div class="column middle">
+    <h2>Reviews:</h2>
+    <p>Here you will find reviews on the latest things that came out wether it be consoles or games. The latest items that just came out were the Playstation 5 and the Xbox Series X which you can see the reviews to the left and right of you. These are personal reviews and little things that make up that console, hope you enjoy.</p>
+    
+  </div>
+  
+  <div class="column side">
+    <h2>Xbox Series X</h2>
+    <p>Rating 7/10, High frame rate gameplay is amazing, Comfy controller, the design is very nice appealing and definitely stands out. It runs smooth and exploits great graphics, only thing is it has limited launch titles, and the users interface still needs a little work, but overall very good and cost the same as a PlayStation 5.
+
+
+</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p></p>
+</div>
+  
+</body>
+</html>
+<img src="https://assets.v3.console-deals.com/storage/ps5-console-family-1601656207NLfGs.jpg">
+<style>
+img {
+  border-radius: 50%;
+}
+</style>
+<hr width=”200″ >   
+<p>Social media//////////////////Contact us//////////////Rate us!!!!
+<html>
+<head>
